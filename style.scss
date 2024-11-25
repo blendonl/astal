@@ -8,11 +8,25 @@ window.Bar {
     font-weight: bold;
     font-size: 13px;
 
+
     >centerbox {
         border-radius: 0px;
         margin: 3px;
 
+        >box {
+
+            button {
+
+                >levelbar {
+                    margin: 50px;
+                }
+            }
+        }
+
+
     }
+
+
 
 
     button {
